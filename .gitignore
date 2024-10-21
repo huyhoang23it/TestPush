@@ -1,0 +1,73 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration file (SDK location, etc.)
+local.properties
+
+# Android Studio specific
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/.name
+.idea/codeStyles/
+.idea/gradle.xml
+.idea/misc.xml
+.idea/codestyles.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/tasks.xml
+
+# Keystore files (For release builds)
+*.jks
+*.keystore
+
+# Log/OS files
+*.log
+*.stacktrace
+*.hprof
+
+# Android specific files
+.DS_Store
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.hprof
+
+# Proguard files
+proguard/
+proguard-project.txt
+proguard-rules.pro
+
+# NDK (Native Development Kit)
+obj/
+*.so
+*.o
+
+# Google Services (If you're using Firebase/Google services)
+google-services.json
+
+# Miscellaneous
+.idea/
+captures/
+output.json
+crashlytics.properties
+fabric.properties
+
+# Ignore Android lint report files
+lint/reports/
+lint/results/
+
+# Ignore generated binary files
+*.lock
